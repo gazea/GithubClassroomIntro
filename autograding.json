@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "unittest",
+      "setup": "sudo -H pip3 install nose numpy scipy",
+      "run": "nosetests -v --nocapture",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "codestyle",
+      "setup": "sudo -H pip3 install flake8",
+      "run": "flake8 --verbose .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
